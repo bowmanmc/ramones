@@ -15,7 +15,6 @@ import { scaleLinear } from 'd3-scale';
 export default {
     data() {
         return {
-            name: 'Header',
             xOffset: 0,
             yOffset: 0,
         };

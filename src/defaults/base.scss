@@ -1,9 +1,13 @@
 @charset "utf-8";
 
 @import "node_modules/normalize.css/normalize";
+@import "_colors";
+@import "_typography";
+
 
 // Tags
 body, html {
+    background: $color-primary;
     height: 100%;
     min-height: 100%;
 }

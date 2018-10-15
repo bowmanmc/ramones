@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/qto0cbl.css");
+
+$fontstack-heading: franklin-gothic-urw, sans-serif;
+$fontweight-heading: 900;
+$fontsize-normal: 22px;
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontstack-heading;
+    font-style: normal;
+    font-weight: $fontweight-heading;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: $fontsize-normal * 6.6;
+    line-height: $fontsize-normal * 6.6;
+    margin: 18px 0;
+}
+
+h2 {
+    font-size: $fontsize-normal * 3;
+}
+
+body {
+    font-size: $fontsize-normal;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 768px;
+}
