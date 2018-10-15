@@ -1,0 +1,118 @@
+{
+    "metaInfo": {
+        "format": "json",
+        "completeness": {
+            "allReports": "1925",
+            "availableReports": "1925",
+            "completeReports": "1925",
+            "incompleteAvailable": "0",
+            "lastUpdated": "2018-08-21 07:33:36",
+            "mostRecentReportDate": "2017-02-15"
+        },
+        "paging": {
+            "pageLink": "p=0",
+            "minPage": 0,
+            "currentPage": 0,
+            "maxPage": 0,
+            "totalPages": 1,
+            "totalRecords": "1",
+            "recordsPerPage": 100,
+            "recordsThisPage": 1
+        },
+        "grouping": {
+            "groupLink": "gro=",
+            "currentGrouping": [],
+            "availableGrouping": {
+                "s": "Election Jurisdiction (General)",
+                "y": "Election Year (General)",
+                "f-s": "Filing Jurisdiction (General)",
+                "f-eid": "Filer (General)",
+                "c-t-id": "Candidate (General)",
+                "m-t-eid": " Ballot Measure Committee (General)",
+                "pt-eid": "Party Committee (General)",
+                "is-f-eid": "Spender (General)",
+                "f-y": "Filing Year (Advanced)",
+                "c-r-osid": "Office Sought (Advanced)",
+                "c-r-oc": "Office (Advanced)",
+                "c-t-i": "Incumbency Data (Advanced)",
+                "c-t-icod": "Incumbency Advantage (Advanced)",
+                "d-nme": "Original Name (Advanced)",
+                "d-amt": "Amount (Advanced)",
+                "d-dte": "Date (Advanced)",
+                "d-ludte": "Last Updated (Advanced)",
+                "d-typ": "Type of Transaction (Advanced)",
+                "d-file": "DND (Advanced)",
+                "d-llink": "Lobbying Entity? (Advanced)",
+                "d-ad-str": "Street (Advanced)",
+                "d-search": "DND (Advanced)",
+                "empl-search": "DND (Advanced)",
+                "c-t-sts": "Status of Candidate (Candidates)",
+                "c-t-pt": "Specific Party (Candidates)",
+                "c-t-p": "General Party (Candidates)",
+                "c-t-eid": "Career Summary (Candidates)",
+                "c-r-t": "Election Type (Candidates)",
+                "c-r-ot": "General Office (Candidates)",
+                "c-r-id": "Specific Office (Candidates)",
+                "c-t-ico": "Incumbency Status (Candidates)",
+                "law-eid": "Office Holder (Lawmakers)",
+                "law-did": "Office Held (Lawmakers)",
+                "law-oc": "Type of Office (Lawmakers)",
+                "law-ot": "General Office (Lawmakers)",
+                "law-pt": "Specific Party (Lawmakers)",
+                "law-p": "General Party (Lawmakers)",
+                "law-s": "Office Holder Jurisdiction (Lawmakers)",
+                "law-y": "Office Holder Year (Lawmakers)",
+                "pt-pt": "Party (Party Committees)",
+                "pt-typ": "Committee Type (Party Committees)",
+                "cis-f-ccg": "Spender Sector (Spender)",
+                "cis-f-cci": "Spender Industry (Spender)",
+                "cis-f-ccb": "Spender Business Classification (Spender)",
+                "cis-et": "Type of Spender (Spender)",
+                "d-id": "Record (Contributors)",
+                "d-eid": "Contributor (Contributors)",
+                "d-et": "Type of Contributor (Contributors)",
+                "d-ccg": "Broad Sector (Contributors)",
+                "d-cci": "General Industry (Contributors)",
+                "d-ccb": "Specific Business (Contributors)",
+                "d-par": "Parent Org or Employer (Contributors)",
+                "d-ad-cty": "City (Contributors)",
+                "d-ad-st": "State (Contributors)",
+                "d-ad-zip": "Zip (Contributors)",
+                "d-ins": "In-State (Contributors)",
+                "d-empl": "Employer (Contributors)",
+                "d-occupation": "Occupation (Contributors)"
+            }
+        },
+        "sorting": {
+            "sortLink": "so=u-tot&sod=0",
+            "currentSorting": {
+                "u-tot": "Total_$"
+            },
+            "sortingDirection": "descending",
+            "availableSorting": {
+                "u-rec": "#_of_Records"
+            }
+        },
+        "recordFormat": {
+            "request": "dt=1&y=2016",
+            "#_of_Records": {
+                "#_of_Records": "display value"
+            },
+            "Total_$": {
+                "Total_$": "display value"
+            }
+        }
+    },
+    "records": [
+        {
+            "record_id": 1,
+            "request": "n\/a",
+            "#_of_Records": {
+                "#_of_Records": "13997398"
+            },
+            "Total_$": {
+                "Total_$": "9034942779.78"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+Title, ReleaseDate, Personnel
+Ramones, 1976-04-23, Joey|Johnny|Dee Dee|Tommy
+Leave Home, 1977-01-10, Joey|Johnny|Dee Dee|Tommy
+Rocket to Russia, 1977-11-04, Joey|Johnny|Dee Dee|Tommy
+Road to Ruin, 1978-09-22, Joey|Johnny|Dee Dee|Marky
+End of the Century, 1980-02-04, Joey|Johnny|Dee Dee|Marky
+Pleasant Dreams, 1981-07-20, Joey|Johnny|Dee Dee|Marky
+Subterranean Jungle, 1983-02-28, Joey|Johnny|Dee Dee|Marky
+Too Tough to Die, 1984-10-01, Joey|Johnny|Dee Dee|Richie
+Animal Boy, 1986-05-19, Joey|Johnny|Dee Dee|Richie
+Halfway to Sanity, 1987-09-15, Joey|Johnny|Dee Dee|Richie
+Brain Drain, 1989-05-18, Joey|Johnny|Dee Dee|Marky
+Mondo Bizarro, 1992-09-01, Joey|Johnny|C.J.|Marky
+Acid Eaters, 1993-12-01, Joey|Johnny|C.J.|Marky
+¡Adios Amigos!, 1995-07-18, Joey|Johnny|C.J.|Marky|Dee Dee
