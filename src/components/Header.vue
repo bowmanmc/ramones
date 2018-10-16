@@ -5,6 +5,11 @@
             backgroundPositionX: xOffset + 'px',
             backgroundPositionY: yOffset + 'px'
          }">
+        <ul class="album-links">
+            <li><a href="">Spotify</a></li>
+            <li><a href="">iTunes</a></li>
+            <li><a href="">YouTube Music</a></li>
+        </ul>
     </div>
 </div>
 </template>
@@ -38,6 +43,7 @@ export default {
 
 <style lang="scss">
 @import "../defaults/colors";
+@import "../defaults/typography";
 
 .Header {
     align-items: center;
@@ -52,14 +58,42 @@ export default {
     min-height: 97%;
 
     .Group {
+        align-items: flex-end;
         background-image: url('/img/ramones-band.png');
         //background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
         flex: 1;
         height: 100%;
+        justify-content: flex-end;
         min-height: 100%;
         width: 100%;
+    }
+
+    .album-links {
+
+        list-style-type: none;
+
+        li {
+            display: inline;
+            margin: 0 0.5em;
+        }
+
+        a {
+            background: rgba($color-gray-20, 0.65);
+            border-radius: 24px;
+            color: $color-white;
+            font-family: $fontstack-heading;
+            font-weight: $fontweight-heading;
+            padding: 0.5em 1.0em;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                background: rgba($color-gray-20, 0.85);
+            }
+        }
     }
 }
 </style>
