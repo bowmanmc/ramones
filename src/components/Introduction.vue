@@ -1,7 +1,7 @@
 <template>
     <div class="Introduction">
         <div class="content">
-            <h1>Ramones</h1>
+            <h1>Hey Ho Let's Go</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

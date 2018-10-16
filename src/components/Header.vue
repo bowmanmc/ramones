@@ -43,7 +43,7 @@ export default {
     align-items: center;
     background: $color-primary;
     background-image: url('/img/ramones-bg.jpg');
-    background-position: top center;
+    //background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -53,7 +53,7 @@ export default {
 
     .Group {
         background-image: url('/img/ramones-band.png');
-        background-position: top center;
+        //background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         flex: 1;
