@@ -32,6 +32,13 @@ Songs
 ------
 -
 
+Visualizations
+--------------
+- Bar - x: track num, y: num chords
+- Bar - x: track num, y: song length
+- Bar - x: 1976 popular albums, y: album length (highlight and center Ramones)
+-
+
 
 Links
 ------

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 <template>
     <svg class="ChilitimeLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408.29 159.34">
         <g class="Logo">
