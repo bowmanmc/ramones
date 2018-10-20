@@ -1,15 +1,11 @@
 <template>
 <div class="Header" @mousemove="handleMouseMove">
     <div class="Group"
-         v-bind:style="{
+        v-bind:style="{
             backgroundPositionX: xOffset + 'px',
             backgroundPositionY: yOffset + 'px'
-         }">
-        <ul class="album-links">
-            <li><a href="">Spotify</a></li>
-            <li><a href="">iTunes</a></li>
-            <li><a href="">YouTube Music</a></li>
-        </ul>
+        }">
+        <AlbumLinks />
     </div>
 </div>
 </template>
@@ -17,7 +13,14 @@
 <script>
 import { scaleLinear } from 'd3-scale';
 
+import AlbumLinks from './icons/AlbumLinks.vue';
+
+
 export default {
+    components: {
+        AlbumLinks,
+    },
+
     data() {
         return {
             xOffset: 0,
@@ -69,31 +72,6 @@ export default {
         justify-content: flex-end;
         min-height: 100%;
         width: 100%;
-    }
-
-    .album-links {
-
-        list-style-type: none;
-
-        li {
-            display: inline;
-            margin: 0 0.5em;
-        }
-
-        a {
-            background: rgba($color-gray-20, 0.65);
-            border-radius: 24px;
-            color: $color-white;
-            font-family: $fontstack-heading;
-            font-weight: $fontweight-heading;
-            padding: 0.5em 1.0em;
-            text-decoration: none;
-            text-transform: uppercase;
-
-            &:hover {
-                background: rgba($color-gray-20, 0.85);
-            }
-        }
     }
 }
 </style>
