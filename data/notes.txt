@@ -46,7 +46,7 @@ Around New York
 - CBGB's, 315 Bowery, New York, NY 10003, 40.725278, -73.991944
 - 53rd and 3rd, 40.757712, -73.969425
 - Albert's Garden (Album Cover), 16 E 2nd St, New York, NY 10003, 40.725402, -73.991134
--
+- Performance Studio, 23 East 20th Street, New York, NY 10003, 40.738989, -73.989344
 
 
 Links
@@ -58,7 +58,12 @@ Band/General
 * https://riotfest.org/2018/04/happy-birthday-ramones-debut-album/
 * https://www.r-bloggers.com/the-ramones-punk-is-data-too/
 * https://www.theguardian.com/music/musicblog/2013/jun/10/arturo-vega-ramones-logo-seal
+* https://en.wikipedia.org/wiki/List_of_Ramones_concerts
 
+* https://en.wikipedia.org/wiki/Joey_Ramone
+* https://en.wikipedia.org/wiki/Dee_Dee_Ramone
+* https://en.wikipedia.org/wiki/Johnny_Ramone
+* https://en.wikipedia.org/wiki/Tommy_Ramone
 
 Album
 * https://en.wikipedia.org/wiki/Ramones_(album)
