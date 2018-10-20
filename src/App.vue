@@ -1,7 +1,10 @@
 <template>
 <div id="App">
     <Header />
+
     <Introduction />
+    <NewYork />
+
     <Footer />
 </div>
 </template>
@@ -10,11 +13,13 @@
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
+import NewYork from './components/NewYork.vue';
+
 
 export default {
     name: 'App',
     components: {
-        Header, Introduction, Footer,
+        Header, Introduction, Footer, NewYork,
     },
 };
 </script>

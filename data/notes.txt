@@ -39,6 +39,15 @@ Visualizations
 - Bar - x: 1976 popular albums, y: album length (highlight and center Ramones)
 -
 
+Around New York
+---------------
+- Radio City Hall (Plaza Sound Studio), 1260 6th Ave, New York, NY 10020, 40.759722, -73.979167
+- Arturo Vega's Apartment, 6 E 2nd St, New York, NY 10003, 40.725446, -73.99158
+- CBGB's, 315 Bowery, New York, NY 10003, 40.725278, -73.991944
+- 53rd and 3rd, 40.757712, -73.969425
+- Albert's Garden (Album Cover), 16 E 2nd St, New York, NY 10003, 40.725402, -73.991134
+-
+
 
 Links
 ------

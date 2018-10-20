@@ -48,7 +48,7 @@
 
         a {
             align-items: center;
-            background: rgba($color-gray-20, 0.65);
+            background: rgba($color-gray-20, 0.75);
             border-radius: 24px;
             color: $color-white;
             display: flex;
