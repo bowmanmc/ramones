@@ -12,4 +12,4 @@ Track, Side, Title, Writers, Length, Seconds, Chords
 11, B, 53rd & 3rd, Dee Dee, 2:19, 139, E|D|A|G|B5
 12, B, Let's Dance, Jim Lee (Chris Montez), 1:51, 111, G|C|D|B|F5
 13, B, I Don't Wanna Walk Around with You, Dee Dee, 1:43, 103, E|G|A|D5
-14, B, Today Your Love\, Tomorrow the World, Dee Dee, 2:09, 129, C|G|E|D|A5
+14, B, Today Your Love Tomorrow the World, Dee Dee, 2:09, 129, C|G|E|D|A5
