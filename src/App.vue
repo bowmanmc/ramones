@@ -3,6 +3,7 @@
     <Header />
 
     <Introduction />
+    <AlbumCharts />
     <NewYork />
 
     <Footer />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import AlbumCharts from './components/AlbumCharts.vue';
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
@@ -19,7 +21,7 @@ import NewYork from './components/NewYork.vue';
 export default {
     name: 'App',
     components: {
-        Header, Introduction, Footer, NewYork,
+        AlbumCharts, Footer, Header, Introduction, NewYork,
     },
 };
 </script>
