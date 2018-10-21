@@ -17,19 +17,19 @@
 </template>
 
 <script>
-    import GoogleIcon from './GoogleIcon.vue';
-    import ItunesIcon from './ItunesIcon.vue';
-    import SpotifyIcon from './SpotifyIcon.vue';
-    import YoutubeIcon from "./YoutubeIcon";
+import GoogleIcon from './GoogleIcon.vue';
+import ItunesIcon from './ItunesIcon.vue';
+import SpotifyIcon from './SpotifyIcon.vue';
+import YoutubeIcon from './YoutubeIcon.vue';
 
 
-    export default {
-        name: 'AlbumLinks',
+export default {
+    name: 'AlbumLinks',
 
-        components: {
-            GoogleIcon, ItunesIcon, SpotifyIcon, YoutubeIcon
-        },
-    };
+    components: {
+        GoogleIcon, ItunesIcon, SpotifyIcon, YoutubeIcon,
+    },
+};
 </script>
 
 <style lang="scss">

@@ -9,9 +9,9 @@
 </template>
 
 <script>
-    export default {
-        name: 'ItunesIcon',
-    };
+export default {
+    name: 'ItunesIcon',
+};
 </script>
 
 <style lang="scss">

@@ -9,9 +9,9 @@
 </template>
 
 <script>
-    export default {
-        name: 'GoogleIcon',
-    };
+export default {
+    name: 'GoogleIcon',
+};
 </script>
 
 <style lang="scss">
