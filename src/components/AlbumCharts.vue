@@ -3,13 +3,15 @@
     <div class="content">
         <h2>Album Charts</h2>
 
-        {{ songs }}
+        <SongLengths v-bind:songs="songs" />
     </div>
 </div>
 </template>
 
 <script>
 import { csvParse } from 'd3-dsv';
+
+import SongLengths from './charts/SongLengths.vue';
 
 
 export default {
@@ -18,6 +20,9 @@ export default {
         return {
             songs: null,
         };
+    },
+    components: {
+        SongLengths,
     },
     methods: {
         fetchData() {
