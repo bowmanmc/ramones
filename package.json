@@ -13,6 +13,9 @@
     "d3-scale": "^2.1.2",
     "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
+    "vega": "^4.3.0",
+    "vega-embed": "^3.20.0",
+    "vega-lite": "^3.0.0-rc6",
     "vue": "^2.5.17"
   },
   "devDependencies": {
