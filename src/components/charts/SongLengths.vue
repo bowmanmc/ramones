@@ -43,6 +43,7 @@ export default {
                 mark: {
                     type: 'bar',
                     color: '#363636',
+                    tooltip: '',
                 },
                 encoding: {
                     x: {
@@ -58,6 +59,9 @@ export default {
                         field: 'Title',
                         sort: null,
                         type: 'nominal',
+                        scale: {
+                            paddingInner: 0.35,
+                        },
                         axis: {
                             title: '',
                             grid: false,
@@ -84,6 +88,10 @@ export default {
 
         .chart-bar-horizontal {
             width: 100%;
+
+            .marks path {
+                cursor: default;
+            }
         }
 
         .ct-series-a .ct-bar {
