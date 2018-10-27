@@ -13,51 +13,55 @@ export default {
     name: 'SongLengths',
     props: ['songs'],
     watch: {
-        songs: function () {
+        songs() {
             this.renderChart();
-        },
-    },
-    computed: {
-        chartData() {
-            if (!this.songs) {
-                return null;
-            }
-
-            const titles = [];
-            const lengths = [];
-            this.songs.forEach((song) => {
-                titles.push(song.Title);
-                lengths.push(song.Seconds);
-            });
-            return {
-                titles,
-                lengths,
-            };
         },
     },
     methods: {
         renderChart() {
-            if (!this.chartData) {
+            if (!this.songs) {
                 return;
             }
 
             const spec = {
                 $schema: 'https://vega.github.io/schema/vega-lite/v3.json',
                 description: 'Bar chart showing the lengths of songs off of the first Ramones album.',
+                width: 768,
+                height: 480,
+                config: {
+                    view: {
+                        stroke: 'transparent',
+                    },
+                },
+                autosize: {
+                    type: 'fit',
+                    contains: 'padding',
+                },
                 data: {
                     values: this.songs,
                 },
-                mark: 'bar',
+                mark: {
+                    type: 'bar',
+                    color: '#363636',
+                },
                 encoding: {
                     x: {
                         field: 'Seconds',
                         type: 'quantitative',
-                        axis: { title: 'Song Length (seconds)' },
+                        axis: {
+                            title: 'Song Length (seconds)',
+                            grid: true,
+                            gridColor: 'rgba(0, 0, 0, 0.09)',
+                        },
                     },
                     y: {
                         field: 'Title',
+                        sort: null,
                         type: 'nominal',
-                        axis: { title: '' },
+                        axis: {
+                            title: '',
+                            grid: false,
+                        },
                     },
                 },
             };
@@ -79,8 +83,6 @@ export default {
     .SongLengths {
 
         .chart-bar-horizontal {
-            border: 1px solid red;
-            height: 480px;
             width: 100%;
         }
 
