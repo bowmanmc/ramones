@@ -1,14 +1,14 @@
 <template>
 <div class="SongLengths">
     <h3>Song Length (seconds)</h3>
-    <div class="chart-bar-horizontal" ref="chart"></div>
+    <div ref="chart"></div>
 </div>
 </template>
 
 <script>
 import vegaEmbed from 'vega-embed';
 
-import SongLengthsSpec from './SongLengthsSpec';
+import SongLengthsSpec from './SongLengths.def';
 
 
 export default {

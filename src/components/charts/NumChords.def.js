@@ -3,7 +3,7 @@ import Colors from './Colors';
 
 export default {
     $schema: 'https://vega.github.io/schema/vega-lite/v3.json',
-    description: 'Bar chart showing the lengths of songs off of the first Ramones album.',
+    description: 'Bar chart showing the number of chords in each song off of the first Ramones album.',
     width: 768,
     height: 480,
     config: {
@@ -21,18 +21,19 @@ export default {
     },
     mark: {
         type: 'bar',
-            color: Colors.GRAY_20,
-            tooltip: null,
+        color: Colors.GRAY_20,
+        tooltip: null,
     },
     encoding: {
         x: {
-            field: 'Seconds',
+            field: 'numChords',
             type: 'quantitative',
             axis: {
-                title: 'Song Length (seconds)',
+                title: 'Number of Chords',
                 grid: true,
                 domainColor: Colors.GRAY_40,
                 gridColor: Colors.GRAY_TRANSPARENT_09,
+                tickStep: 1,
             },
         },
         y: {
@@ -43,7 +44,7 @@ export default {
                 title: '',
                 grid: false,
                 domainColor: Colors.GRAY_40,
-                labelLimit: 200,
+                labelLimit: 225,
             },
             scale: {
                 paddingInner: 0.33,
@@ -62,11 +63,11 @@ export default {
             align: 'left',
             baseline: 'middle',
             color: Colors.GRAY_95,
-            dx: -27,
+            dx: -17,
             tooltip: null,
         },
         encoding: {
-            text: { field: 'Length', type: 'nominal' },
+            text: { field: 'numChords', type: 'nominal' },
         },
     }],
 };
