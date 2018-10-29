@@ -5,6 +5,7 @@
 
         <SongLengths v-bind:songs="songs" />
         <NumChords v-bind:songs="songs" />
+        <SongWriters v-bind:songs="songs" />
 
     </div>
 </div>
@@ -15,6 +16,7 @@ import { csvParse } from 'd3-dsv';
 
 import NumChords from './charts/NumChords.vue';
 import SongLengths from './charts/SongLengths.vue';
+import SongWriters from './charts/SongWriters.vue';
 
 
 export default {
@@ -25,7 +27,7 @@ export default {
         };
     },
     components: {
-        NumChords, SongLengths,
+        NumChords, SongLengths, SongWriters,
     },
     methods: {
         fetchData() {
