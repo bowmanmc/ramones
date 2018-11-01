@@ -34,6 +34,5 @@ export default {
 
 <style lang="scss">
 @import 'defaults/base';
-@import '~chartist/dist/scss/chartist';
 
 </style>
