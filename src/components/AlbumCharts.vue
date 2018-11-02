@@ -3,7 +3,7 @@
     <div class="content">
         <h2>Album Charts</h2>
 
-        <SongLengths v-bind:songs="songs" />
+        <SongLengths />
         <NumChords v-bind:songs="songs" />
         <SongWriters v-bind:songs="songs" />
 

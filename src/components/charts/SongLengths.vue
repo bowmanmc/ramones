@@ -1,6 +1,12 @@
 <template>
 <div class="SongLengths">
     <h3>Song Length (seconds)</h3>
+
+    <p>
+        All songs on the album clock in well under three minutes, with the
+        average song length being 2:06 (two minutes and six seconds).
+    </p>
+
     <svg class="Chart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 709.12 709.12">
         <title>Song Lengths Chart</title>
         <g id="_14" class="track">
@@ -114,7 +120,8 @@ export default {
             }
 
             line {
-                stroke: $color-primary-alt;
+                stroke: $color-gray-50;
+                stroke-dasharray: 5;
                 stroke-linecap: round;
                 stroke-width: 1;
             }
@@ -134,16 +141,20 @@ export default {
             }
 
             .bold {
-                fill: $color-primary-alt;
+                fill: $color-gray-20;
                 font-weight: $fontweight-bold;
             }
 
             .highlight {
                 .bar {
-                    fill: $color-primary-alt;
+                    fill: $color-gray-20;
                 }
                 .time {
                     fill: $color-white;
+                }
+                .title {
+                    fill: $color-gray-20;
+                    font-weight: $fontweight-bold;
                 }
             }
 
