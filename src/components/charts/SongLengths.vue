@@ -5,6 +5,10 @@
     <p>
         All songs on the album clock in well under three minutes, with the
         average song length being 2:06 (two minutes and six seconds).
+        <em>Judy is a Punk</em>
+        is the shortest song at 1:30 and
+        <em>I Don't Wanna Go Down to the Basement</em> is the longest
+        at 2:35.
     </p>
 
     <!-- https://codepen.io/webslingerm/pen/pQzbvp -->
@@ -154,6 +158,7 @@ export default {
         cursor: default;
 
         .Chart {
+            max-width: 512px;
             width: 100%;
 
             text {
