@@ -20,7 +20,7 @@
             </a>
             <p>
                 Designed and Developed by
-                Michael Bowman in October of 2018.
+                Michael Bowman in October & November of 2018.
                 Please visit my site at
                 <a href="https://www.chilitime.design">Chilitime Design</a>.
             </p>

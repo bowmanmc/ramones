@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: $fontsize-normal * 6.6;
-    line-height: $fontsize-normal * 6.6;
+    font-size: $fontsize-normal * 4.2;
+    line-height: $fontsize-normal * 4.2;
     margin: 18px 0;
 }
 
@@ -46,4 +46,5 @@ body {
 .content {
     margin: 0 auto;
     max-width: 768px;
+    padding: 0 0.5em;
 }

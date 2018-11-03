@@ -1,7 +1,7 @@
 <template>
 <div class="AlbumCharts">
     <div class="content">
-        <h2>Album Charts</h2>
+        <h2>Three Chord Assault</h2>
 
         <SongLengths />
         <NumChords v-bind:songs="songs" />

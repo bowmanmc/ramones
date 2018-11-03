@@ -1,9 +1,7 @@
 <template>
 <div class="SongLengths">
-    <h3>Song Length (seconds)</h3>
-
     <p>
-        All songs on the album clock in well under three minutes, with the
+        All songs on the album clock in at well under three minutes, with the
         average song length being 2:06 (two minutes and six seconds).
         <em>Judy is a Punk</em>
         is the shortest song at 1:30 and
@@ -11,6 +9,7 @@
         at 2:35.
     </p>
 
+    <h3>Song Lengths</h3>
     <!-- https://codepen.io/webslingerm/pen/pQzbvp -->
     <svg class="Chart" viewBox="0 0 640 770">
         <g class="track" id="01">
