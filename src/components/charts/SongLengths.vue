@@ -153,6 +153,24 @@ export default {
     @import "../../defaults/devices";
     @import "../../defaults/typography";
 
+    $AnimateWidthDuration: 1s;
+
+    @keyframes AnimateOpacity {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes AnimateWidth {
+        0% {
+            width: 0;
+        }
+    }
+
     .SongLengths {
         cursor: default;
 
@@ -166,12 +184,15 @@ export default {
             }
 
             rect {
+                animation: AnimateWidth $AnimateWidthDuration ease-in-out forwards;
                 fill: $color-gray-30;
             }
 
             .time {
+                animation: AnimateOpacity $AnimateWidthDuration * 2 ease-in-out forwards;
                 fill: $color-gray-90;
                 font-weight: 900;
+                opacity: 1;
             }
 
             .highlight {
