@@ -3,13 +3,15 @@
         <div class="content">
             <h1>Hey Ho Let's Go</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Recorded over seven days in January of 1976, the debut record
+                from the Ramones is one of the most influential records in
+                rock & roll history.
+
+                At just over twenty nine minutes long, fourteen of the
+                bands most recognizable songs are jam-packed, seven songs a side,
+                onto an album ranked at number thirty three on
+                <a href="https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/">Rolling Stone's 500 Greatest Albums of All Time</a>
+                list.
             </p>
         </div>
     </div>
