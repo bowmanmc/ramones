@@ -29,14 +29,14 @@
 </template>
 
 <script>
-    import ChilitimeLogo from './ChilitimeLogo.vue';
+import ChilitimeLogo from './ChilitimeLogo.vue';
 
-    export default {
-        name: 'Footer',
-        components: {
-            ChilitimeLogo,
-        },
-    };
+export default {
+    name: 'Footer',
+    components: {
+        ChilitimeLogo,
+    },
+};
 </script>
 
 <style lang="scss">
