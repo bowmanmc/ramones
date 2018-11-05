@@ -29,6 +29,9 @@ $color-dark: #2A303D;
 $color-dark-dark: darken(#2A303D, 9%);
 
 $color-primary: #ECDD4A;
-$color-primary-alt: #2E536A;
 $color-primary-dk: mix($color-black, $color-primary, 33%);
 $color-primary-lt: mix($color-white, $color-primary, 33%);
+
+$color-alt: #65B6EA;
+$color-alt-dk: #2E536A;
+$color-alt-lt: #AED5ED;

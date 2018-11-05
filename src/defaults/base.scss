@@ -12,6 +12,15 @@ body, html {
     min-height: 100%;
 }
 
+a {
+    color: $color-alt-dk;
+    font-weight: bold;
+
+    &:hover {
+        color: $color-alt;
+    }
+}
+
 #App {
     height: 100%;
 }
