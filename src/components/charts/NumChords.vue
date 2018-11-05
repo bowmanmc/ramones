@@ -1,6 +1,8 @@
 <template>
     <div class="NumChords">
-        <h3>Number of Chords</h3>
+
+        <h3>Number of Chords per Song</h3>
+
         <div class="NumChordsCtr">
             <div class="NumChords__chart">
                 <svg class="Chart" viewBox="0 0 170 192">
@@ -113,7 +115,7 @@ export default {
 
             .NumChords__description {
                 flex: 1;
-                padding: 0 1.0em;
+                padding-left: 2.0em;
 
                 p {
                     margin-top: 0;
