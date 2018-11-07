@@ -84,7 +84,7 @@
                     The Ramones are known for their simplistic, three-chord
                     melodies, however, only one song on the album,
                     <em>Judy is a Punk</em>,
-                    contains only three chords. Most songs (6), contain four
+                    contains just three chords. Most songs (6), contain four
                     chords, and two,
                     <em>I Don't Wanna Go Down to the Basement</em> and
                     <em>Listen to My Heart</em> contain seven chords each.
