@@ -55,9 +55,9 @@
 </template>
 
 <script>
-    export default {
-        name: 'Studio',
-    };
+export default {
+    name: 'Studio',
+};
 </script>
 
 <style lang="scss">
