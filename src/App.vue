@@ -3,6 +3,7 @@
     <Header />
 
     <Introduction />
+    <Studio />
     <AlbumCharts />
     <AlbumComparisons />
     <NewYork />
@@ -22,12 +23,21 @@ import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
 import NewYork from './components/NewYork.vue';
 import Resources from './components/Resources.vue';
+import Studio from './components/Studio.vue';
 
 
 export default {
     name: 'App',
     components: {
-        AlbumCharts, AlbumComparisons, Band, Footer, Header, Introduction, NewYork, Resources,
+        AlbumCharts,
+        AlbumComparisons,
+        Band,
+        Footer,
+        Header,
+        Introduction,
+        NewYork,
+        Resources,
+        Studio,
     },
 };
 </script>
