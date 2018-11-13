@@ -1,7 +1,7 @@
 <template>
     <div class="Studio">
         <div class="content">
-            <h2>Plaza Sound Studio</h2>
+            <h2>Plaza Sound Studios</h2>
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                 <defs>
                     <symbol id="drums" viewBox="0 0 90 58.8">
