@@ -26,50 +26,68 @@
                     </symbol>
                 </defs>
             </svg>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div class="label">Guitar, Bass, & Drums</div>
-                            <p>2 Days</p>
-                        </td>
-                        <td>
-                            <svg><use href="#drums"></use></svg>
-                            <svg><use href="#drums"></use></svg>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="label">Vocals</div>
-                            <p>2 Days</p>
-                        </td>
-                        <td>
-                            <svg><use href="#vocals"></use></svg>
-                            <svg><use href="#vocals"></use></svg>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="label">Background Vocals</div>
-                            <p>1 Day</p>
-                        </td>
-                        <td>
-                            <svg><use href="#group"></use></svg>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="label">Mixing</div>
-                            <p>3 Days</p>
-                        </td>
-                        <td>
-                            <svg><use href="#mixing"></use></svg>
-                            <svg><use href="#mixing"></use></svg>
-                            <svg><use href="#mixing"></use></svg>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <div class="sections">
+                <div class="studio">
+                    <p>
+                        bah bah bah bah
+                    </p>
+                </div>
+                <div class="chart">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td class="label">
+                                <label>Guitar, Bass, & Drums</label>
+                                <span>2 Days</span>
+                            </td>
+                            <td>
+                                <div class="bar">
+                                    <svg><use href="#drums"></use></svg>
+                                    <svg><use href="#drums"></use></svg>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label>Vocals</label>
+                                <span>2 Days</span>
+                            </td>
+                            <td>
+                                <div class="bar">
+                                    <svg><use href="#vocals"></use></svg>
+                                    <svg><use href="#vocals"></use></svg>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label>Background Vocals</label>
+                                <span>1 Day</span>
+                            </td>
+                            <td>
+                                <div class="bar">
+                                    <svg><use href="#group"></use></svg>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label>Mixing</label>
+                                <span>3 Days</span>
+                            </td>
+                            <td>
+                                <div class="bar">
+                                    <svg><use href="#mixing"></use></svg>
+                                    <svg><use href="#mixing"></use></svg>
+                                    <svg><use href="#mixing"></use></svg>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -94,26 +112,61 @@ export default {
         color: $color-white;
         padding: 1.0em 0;
 
+        .sections {
+            display: flex;
+
+            .studio {
+                width: 33%;
+            }
+
+            .chart {
+                width: 67%;
+            }
+        }
+
+        p {
+            margin-top: 0;
+        }
+
         svg {
             fill: $color-white;
-            height: 48px;
+            height: 64px;
             margin: 0.25em;
-            width: 48px;
+            width: 64px;
         }
 
         table {
-            .label {
-                font-size: $fontsize-large;
-                font-weight: bold;
-                text-align: right;
-                text-transform: uppercase;
+            table-layout: fixed;
+            width: 100%;
+
+            .bar {
+                background-image: linear-gradient(
+                        to bottom,
+                        transparent,
+                        transparent 33%,
+                        transparentize($color-alt, 0.55) 33%,
+                        transparentize($color-alt, 0.55) 66%,
+                        transparent 66%
+                );
+                display: inline-block;
+                padding: 0 0.5em 0 0.25em;
             }
 
-            p {
-                font-size: $fontsize-small;
-                margin: 0;
-                padding: 0;
+            .label {
+                padding-right: 0.5em;
                 text-align: right;
+
+                label {
+                    font-size: $fontsize-normal;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                span {
+                    color: $color-gray-70;
+                    display: block;
+                    font-size: $fontsize-small;
+                    font-style: italic;
+                }
             }
         }
 
