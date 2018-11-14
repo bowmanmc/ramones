@@ -3,7 +3,7 @@
         <div class="content">
             <h1>Hey Ho Let's Go</h1>
             <p>
-                Recorded over seven days in January of 1976, the debut record
+                Recorded over seven days in February of 1976, the debut record
                 from the Ramones is one of the most influential records in
                 rock & roll history.
 
@@ -23,14 +23,6 @@
                 (only 6,000 copies in the first year), it helped kickstart
                 the fledgling punk scene in the United States and has
                 influenced countless bands in the forty years since it was released.
-            </p>
-            <p>
-                For me, this album is the soundtrack of my teenage years &mdash;
-                carefree days in the late 90's spent listening to punk rock and
-                acting stupid with my friends. I've compiled information here
-                about the production of the album and hope you'll give it a
-                spin while learning
-                more about this important gem in rock and roll history.
             </p>
         </div>
     </div>
