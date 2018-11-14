@@ -4,6 +4,17 @@
         <h3>Number of Chords per Song</h3>
 
         <div class="NumChordsCtr">
+            <div class="NumChords__description">
+                <p>
+                    The Ramones are known for their simplistic, three-chord
+                    melodies, however, only one song on the album,
+                    <em>Judy is a Punk</em>,
+                    contains just three chords. Most songs (6), contain four
+                    chords, and two,
+                    <em>I Don't Wanna Go Down to the Basement</em> and
+                    <em>Listen to My Heart</em> contain seven chords each.
+                </p>
+            </div>
             <div class="NumChords__chart">
                 <svg class="Chart" viewBox="0 0 170 192">
                     <g class="count" transform="translate(0, 0)">
@@ -79,17 +90,6 @@
                     <line x1="0" x2="170" y1="133" y2="133"></line>
                 </svg>
             </div>
-            <div class="NumChords__description">
-                <p>
-                    The Ramones are known for their simplistic, three-chord
-                    melodies, however, only one song on the album,
-                    <em>Judy is a Punk</em>,
-                    contains just three chords. Most songs (6), contain four
-                    chords, and two,
-                    <em>I Don't Wanna Go Down to the Basement</em> and
-                    <em>Listen to My Heart</em> contain seven chords each.
-                </p>
-            </div>
         </div>
     </div>
 </template>
@@ -102,23 +102,37 @@ export default {
 
 <style lang="scss">
     @import "../../defaults/colors";
+    @import "../../defaults/devices";
+
 
     .NumChords {
 
         .NumChordsCtr {
             display: flex;
+            flex-wrap: wrap;
             padding-top: 1.0em;
 
             .NumChords__chart {
-                width: 256px;
+                width: 100%;
             }
 
             .NumChords__description {
-                flex: 1;
-                padding-left: 2.0em;
+                padding-right: 2.0em;
+                width: 100%;
 
                 p {
                     margin-top: 0;
+                }
+            }
+
+            @include desktop {
+                flex-wrap: nowrap;
+
+                .NumChords__chart {
+                    width: 356px;
+                }
+                .NumChords__description {
+                    flex: 1;
                 }
             }
         }
