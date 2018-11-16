@@ -32,7 +32,7 @@ export default {
         handleMouseMove(evt) {
             const x = scaleLinear()
                 .domain([0, window.innerWidth])
-                .range([-5, 5]);
+                .range([-3, 3]);
             this.xOffset = x(evt.clientX) * -1;
 
             const y = scaleLinear()

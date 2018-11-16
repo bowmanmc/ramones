@@ -5,7 +5,7 @@
     <Introduction />
     <Studio />
     <AlbumCharts />
-    <AlbumComparisons />
+    <AlbumCover />
     <NewYork />
     <Band />
     <Resources />
@@ -16,7 +16,7 @@
 
 <script>
 import AlbumCharts from './components/AlbumCharts.vue';
-import AlbumComparisons from './components/AlbumComparisons.vue';
+import AlbumCover from './components/AlbumCover.vue';
 import Band from './components/Band.vue';
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
@@ -30,7 +30,7 @@ export default {
     name: 'App',
     components: {
         AlbumCharts,
-        AlbumComparisons,
+        AlbumCover,
         Band,
         Footer,
         Header,
