@@ -174,6 +174,10 @@ export default {
     .SongLengths {
         cursor: default;
 
+        h3 {
+            margin-bottom: 0.5em;
+        }
+
         .Chart {
             max-width: 512px;
             width: 100%;
