@@ -70,6 +70,7 @@ export default {
             flex-wrap: wrap;
             font-size: $fontsize-small;
             line-height: $fontsize-small * 1.35;
+            padding-top: 1.0em;
 
             .factoids {
                 width: 100%;
