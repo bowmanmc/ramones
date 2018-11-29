@@ -2,6 +2,12 @@
     <div class="Band">
         <div class="content">
             <h2>The Band</h2>
+            <p>
+                By February of 1976, when the album was recorded, the Ramones
+                had been playing together for almost two years. They recorded
+                the songs in the same order they played them live to help
+                capture the feel of their concerts.
+            </p>
             <div class="members">
                 <div class="member">
                     <div class="member__headshot">
