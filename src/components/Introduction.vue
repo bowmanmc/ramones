@@ -19,7 +19,7 @@
                 The Ramones played loud, fast, simple songs with buzzsaw guitars
                 and outrageous lyrics.
 
-                Even though the album sold poorly at first
+                Even though the album sold poorly
                 (only 6,000 copies in the first year), it helped kickstart
                 the fledgling punk scene in the United States and has
                 influenced countless bands in the forty years since it was released.
