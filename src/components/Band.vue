@@ -74,8 +74,8 @@
                         <p>
                             Besides famously counting in the songs live, "1-2-3-4!",
                             Dee Dee wrote the majority of the songs on the debut
-                            album, contributing to nine of the tracks.
-
+                            album, contributing to nine of the thirteen original
+                            tracks.
                         </p>
                     </div>
                 </div>
@@ -94,6 +94,7 @@ export default {
     @import "../defaults/colors";
     @import "../defaults/typography";
 
+    $headsize: 156px;
 
     .Band {
         background: $color-gray-98;
@@ -106,8 +107,8 @@ export default {
 
             &__headshot {
                 .face {
-                    height: 128px;
-                    width: 128px;
+                    height: $headsize;
+                    width: $headsize;
                 }
             }
 

@@ -77,7 +77,6 @@ export default {
             }
 
             .images {
-                padding-left: 2.0em;
                 text-align: center;
                 width: 100%;
 
@@ -119,6 +118,7 @@ export default {
                 }
 
                 .images {
+                    padding-left: 2.0em;
                     width: 40%;
                 }
 
