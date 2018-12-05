@@ -34,4 +34,5 @@ $color-primary-lt: mix($color-white, $color-primary, 33%);
 
 $color-alt: #65B6EA;
 $color-alt-dk: #2E536A;
+$color-alt-dkdk: darken($color-alt-dk, 20%);
 $color-alt-lt: #AED5ED;
