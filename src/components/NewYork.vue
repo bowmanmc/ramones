@@ -4,25 +4,25 @@
             <h2>Around New York</h2>
             <div class="navigation">
                 <div class="navigation__section">
-                    <a>Plaza Sound Studios</a>
-                    <a>Arturo Vega's Apartment</a>
+                    <a @click="selectMapItem('plaza')">Plaza Sound Studios</a>
+                    <a @click="selectMapItem('arturos')">Arturo Vega's Apartment</a>
                 </div>
                 <div class="navigation__section">
-                    <a>CBGB's</a>
-                    <a>53rd & 3rd</a>
+                    <a @click="selectMapItem('cbgbs')">CBGB's</a>
+                    <a @click="selectMapItem('53rd3rd')">53rd & 3rd</a>
                 </div>
                 <div class="navigation__section">
-                    <a>Albert's Garden</a>
-                    <a>Performance Studio</a>
+                    <a @click="selectMapItem('alberts')">Albert's Garden</a>
+                    <a @click="selectMapItem('performance')">Performance Studio</a>
                 </div>
             </div>
             <div class="sections">
                 <div class="section">
                     <h3>Plaza Sound Studios</h3>
-
+                    {{ selected }}
                 </div>
                 <div class="section">
-                    <NYCMap />
+                    <NYCMap v-bind:highlight="selected" />
                 </div>
             </div>
 
@@ -37,6 +37,16 @@ export default {
     name: 'NewYork',
     components: {
         NYCMap,
+    },
+    data() {
+        return {
+            selected: 'plaza',
+        };
+    },
+    methods: {
+        selectMapItem(selectedItem) {
+            this.selected = selectedItem;
+        },
     },
 };
 </script>

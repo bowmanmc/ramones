@@ -68,7 +68,7 @@
             </g>
         </g>
 
-        <g class="alberts inactive">
+        <g v-bind:class="{ inactive: (highlight !== 'alberts') }">
             <text transform="translate(69.38704 136.12623)">ALBERT'S GARDEN</text>
             <path class="connector" d="M63.07018 143.76859l1.89434-8.67973M64.96452 135.08886l3.74809.02091"/>
             <g class="target">
@@ -77,7 +77,7 @@
             </g>
         </g>
 
-        <g class="arturos inactive">
+        <g v-bind:class="{ inactive: (highlight !== 'arturos') }">
             <text transform="translate(16.75065 134.82006)">ARTURO VEGA'S LOFT</text>
             <path class="connector" d="M61.42443 143.34029v-7.42439" />
             <g class="target">
@@ -86,7 +86,7 @@
             </g>
         </g>
 
-        <g class="cbgbs inactive">
+        <g v-bind:class="{ inactive: (highlight !== 'cbgbs') }">
             <text transform="translate(32.82368 143.11111)">CBGB’S</text>
             <path class="connector" d="M59.00901 144.96377l-1.75235-3.30983M51.40326 141.65218l5.8534.00176" />
             <g class="target">
@@ -95,7 +95,7 @@
             </g>
         </g>
 
-        <g class="performance inactive">
+        <g v-bind:class="{ inactive: (highlight !== 'performance') }">
             <text transform="translate(31.77542 105.27097)">PERFORMANCE STUDIO</text>
             <path class="connector" d="M55.28561 109.51335l-1.75235-3.30984" />
             <g class="target">
@@ -104,7 +104,7 @@
             </g>
         </g>
 
-        <g class="plaza active">
+        <g v-bind:class="{ inactive: (highlight !== 'plaza') }">
             <text transform="translate(37.23352 67.68626)">PLAZA SOUND STUDIOS</text>
             <path class="connector" d="M61.67306 64.06737v-5.2504" />
             <g class="target">
@@ -113,7 +113,7 @@
             </g>
         </g>
 
-        <g class="53rd3rd inactive">
+        <g v-bind:class="{ inactive: (highlight !== '53rd3rd') }">
             <text transform="translate(40.48028 45.91144)">53RD &amp; 3RD</text>
             <path class="connector" d="M79.89868 51.39469l-5.38732-6.70007M70.76327 44.67371l3.74809.02091" />
             <g class="target">
@@ -126,6 +126,7 @@
 
 <script>
 export default {
+    props: ['highlight'],
     name: 'NYCMap',
 };
 </script>
