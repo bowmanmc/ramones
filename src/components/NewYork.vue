@@ -5,7 +5,7 @@
             <div class="navigation">
                 <div class="navigation__section">
                     <a @click="selectMapItem('plaza')">Plaza Sound Studios</a>
-                    <a @click="selectMapItem('arturos')">Arturo Vega's Apartment</a>
+                    <a @click="selectMapItem('arturos')">Arturo Vega's Loft</a>
                 </div>
                 <div class="navigation__section">
                     <a @click="selectMapItem('cbgbs')">CBGB's</a>
@@ -18,8 +18,7 @@
             </div>
             <div class="sections">
                 <div class="section">
-                    <h3>Plaza Sound Studios</h3>
-                    {{ selected }}
+                    <Locations v-bind:highlight="selected" />
                 </div>
                 <div class="section">
                     <NYCMap v-bind:highlight="selected" />
@@ -31,11 +30,14 @@
 </template>
 
 <script>
+import Locations from './map/Locations.vue';
 import NYCMap from './map/NYCMap.vue';
+
 
 export default {
     name: 'NewYork',
     components: {
+        Locations,
         NYCMap,
     },
     data() {
