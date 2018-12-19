@@ -50,7 +50,7 @@
                 <circle cx="61.42443" cy="145.74623" r=".81483" class="dot" />
                 <circle cx="61.42443" cy="145.74623" r="1.56358" />
             </g>
-            <g class="target cbgbs">
+            <g class="target cbgb">
                 <circle cx="60.83523" cy="146.52736" r=".81483" class="dot" />
                 <circle cx="60.83523" cy="146.52736" r="1.56358" />
             </g>
@@ -86,8 +86,8 @@
             </g>
         </g>
 
-        <g v-bind:class="{ inactive: (highlight !== 'cbgbs') }">
-            <text transform="translate(32.82368 143.11111)">CBGB’S</text>
+        <g v-bind:class="{ inactive: (highlight !== 'cbgb') }">
+            <text transform="translate(32.82368 143.11111)">CBGB</text>
             <path class="connector" d="M59.00901 144.96377l-1.75235-3.30983M51.40326 141.65218l5.8534.00176" />
             <g class="target">
                 <circle cx="60.83523" cy="146.52736" r=".81483" class="dot" />
@@ -163,7 +163,6 @@ export default {
     .locations {
 
         .target {
-            cursor: pointer;
             stroke: $color-alt-lt;
 
             .dot {

@@ -16,19 +16,27 @@
             </p>
         </div>
 
-        <div class="Location" v-bind:class="{ inactive: (highlight !== 'cbgbs') }">
-            <h3>CBGB's</h3>
+        <div class="Location" v-bind:class="{ inactive: (highlight !== 'cbgb') }">
+            <h3>CBGB</h3>
             <p>
-
+                Opened by Hilly Krystal in 1973, CBGB became famous for hosting
+                many early punk and new wave bands.
             </p>
         </div>
 
         <div class="Location" v-bind:class="{ inactive: (highlight !== '53rd3rd') }">
             <h3>53rd & 3rd</h3>
+            <p>
+                Written by Dee Dee Ramone, the song 53rd & 3rd is about a
+                well-known spot in New York City for male prostitution.
+            </p>
         </div>
 
         <div class="Location" v-bind:class="{ inactive: (highlight !== 'alberts') }">
             <h3>Albert's Garden</h3>
+            <p>
+                Roberta Bayley
+            </p>
         </div>
 
         <div class="Location" v-bind:class="{ inactive: (highlight !== 'performance') }">
@@ -52,6 +60,18 @@
     .Locations {
         .inactive {
             display: none;
+        }
+
+        .Location {
+            h3 {
+                border-bottom: 1px solid $color-white;
+                padding-bottom: 0.5em;
+            }
+
+            p {
+                font-size: $fontsize-small;
+                line-height: $fontsize-small * 1.5;
+            }
         }
     }
 </style>

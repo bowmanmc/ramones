@@ -5,14 +5,14 @@
             <div class="navigation">
                 <div class="navigation__section">
                     <a @click="selectMapItem('plaza')">Plaza Sound Studios</a>
+                    <a @click="selectMapItem('alberts')">Albert's Garden</a>
+                </div>
+                <div class="navigation__section">
+                    <a @click="selectMapItem('cbgb')">CBGB</a>
                     <a @click="selectMapItem('arturos')">Arturo Vega's Loft</a>
                 </div>
                 <div class="navigation__section">
-                    <a @click="selectMapItem('cbgbs')">CBGB's</a>
                     <a @click="selectMapItem('53rd3rd')">53rd & 3rd</a>
-                </div>
-                <div class="navigation__section">
-                    <a @click="selectMapItem('alberts')">Albert's Garden</a>
                     <a @click="selectMapItem('performance')">Performance Studio</a>
                 </div>
             </div>
@@ -79,7 +79,7 @@ export default {
                 cursor: pointer;
                 display: inline-block;
                 font-size: $fontsize-small;
-                font-weight: normal;
+                font-weight: bold;
                 margin: 0 0.25em 0.5em 0.25em;
                 padding: 0.5em;
 
