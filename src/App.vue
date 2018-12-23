@@ -7,6 +7,7 @@
     <AlbumCharts />
     <AlbumCover />
     <NewYork />
+    <Platinum />
     <Band />
     <Resources />
 
@@ -22,6 +23,7 @@ import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
 import NewYork from './components/NewYork.vue';
+import Platinum from './components/Platinum.vue';
 import Resources from './components/Resources.vue';
 import Studio from './components/Studio.vue';
 
@@ -36,6 +38,7 @@ export default {
         Header,
         Introduction,
         NewYork,
+        Platinum,
         Resources,
         Studio,
     },

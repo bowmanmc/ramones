@@ -46,10 +46,10 @@
 </template>
 
 <script>
-    export default {
-        props: ['highlight'],
-        name: 'Locations',
-    };
+export default {
+    props: ['highlight'],
+    name: 'Locations',
+};
 </script>
 
 <style lang="scss">
