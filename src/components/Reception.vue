@@ -1,5 +1,5 @@
 <template>
-    <div class="Platinum">
+    <div class="Reception">
         <div class="content">
             <h2>Reception & Sales</h2>
             <p>
@@ -9,6 +9,13 @@
                 album have been covered by bands such as the
                 Red Hot Chili Peppers, Metallica, and U2.
             </p>
+            <p>
+                The album took a little over 38 years to be certified by the
+                RIAA in 2014 as gold (selling 500,000 copies). The
+                album has also been selected by the Library of Congress for
+                preservation because of its "cultural, artistic and
+                historic importance to the nation’s aural legacy".
+            </p>
         </div>
 
     </div>
@@ -16,7 +23,7 @@
 
 <script>
 export default {
-    name: 'Platinum',
+    name: 'Reception',
 };
 </script>
 
@@ -25,7 +32,7 @@ export default {
     @import "../defaults/devices";
     @import "../defaults/typography";
 
-    .Platinum {
+    .Reception {
         background: $color-primary;
         color: $color-gray-20;
         padding: 1.0em 0;

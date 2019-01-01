@@ -19,11 +19,21 @@
                 The Ramones played loud, fast, simple songs with buzzsaw guitars
                 and outrageous lyrics.
 
-                Even though the album sold poorly
-                (only 6,000 copies in the first year), it helped kickstart
+                Even though the album sold poorly, it helped kickstart
                 the fledgling punk scene in the United States and has
                 influenced countless bands in the forty years since it was released.
             </p>
+
+            <div class="covers">
+                <div class="cover">
+                    <img src="img/cover-front.jpg" alt="Album Front Cover" />
+                    <span>Front Cover</span>
+                </div>
+                <div class="cover">
+                    <img src="img/cover-back.jpg" alt="Album Back Cover" />
+                    <span>Back Cover</span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -36,10 +46,32 @@ export default {
 
 <style lang="scss">
     @import "../defaults/colors";
+    @import "../defaults/typography";
 
     .Introduction {
         background: $color-gray-98;
         color: $color-gray-20;
         padding: 1.0em 0;
+
+        .covers {
+            display: flex;
+
+            .cover {
+                display: flex;
+                flex-direction: column;
+                margin-right: 1.0em;
+                text-align: center;
+
+                img {
+                    border: 1px solid $color-primary;
+                    height: 256px;
+                }
+
+                span {
+                    color: $color-gray-50;
+                    font-size: $fontsize-small;
+                }
+            }
+        }
     }
 </style>
