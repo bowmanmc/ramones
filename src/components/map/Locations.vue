@@ -3,8 +3,11 @@
         <div class="Location" v-bind:class="{ inactive: (highlight !== 'plaza') }">
             <h3>Plaza Sound Studios</h3>
             <p>
-                The Ramones recorded their debut album here, on the seventh
-                floor of Radio City Music Hall.
+                Known mostly for the recording of jazz albums, Plaza Sound was
+                located on the seventh floor of Radio City Music Hall. It was
+                a large space with thirty foot ceilings and amazing acoustics,
+                originally built by NBC for Arturo Toscanini's Orchestra in
+                the 1930's.
             </p>
         </div>
 

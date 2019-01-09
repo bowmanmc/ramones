@@ -23,7 +23,8 @@
                             so loud.
                         </li>
                         <li>
-                            Johnny resisted double tracking the guitar parts,
+                            Johnny resisted double tracking the guitar parts
+                            (a common recording technique),
                             saying that he wanted the album to reflect
                             their live shows.
                         </li>
