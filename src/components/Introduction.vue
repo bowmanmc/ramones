@@ -3,9 +3,9 @@
         <div class="content">
             <h1>Hey Ho Let's Go</h1>
             <p>
-                Recorded over seven days in February of 1976, the debut record
-                from the Ramones is one of the most influential records in
-                rock & roll history.
+                Recorded over seven days in February of 1976, the debut
+                self-titled record from the Ramones is one of the most
+                influential records in rock & roll history.
 
                 At just over twenty nine minutes long, fourteen of the
                 bands most recognizable songs are jam-packed, seven songs a side,

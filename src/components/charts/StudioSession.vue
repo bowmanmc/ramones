@@ -94,7 +94,7 @@ export default {
     svg {
         fill: $color-white;
         height: 52px;
-        margin: 0.25em;
+        margin: 0.25em 0.35em;
         width: 52px;
     }
 
@@ -107,11 +107,11 @@ export default {
                     to bottom,
                     transparent,
                     transparent 33%,
-                    $color-alt-dk 33%,
-                    $color-alt-dk 66%,
+                    rgba($color-primary, 0.40) 33%,
+                    rgba($color-primary, 0.40) 66%,
                     transparent 66%
             );
-            border-left: 1px solid $color-alt-dk;
+            border-left: 1px solid $color-primary;
             display: inline-block;
             padding: 0 0.5em 0 0.25em;
         }
