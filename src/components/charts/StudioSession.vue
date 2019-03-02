@@ -95,7 +95,7 @@ export default {
         fill: $color-white;
         height: 52px;
         margin: 0.25em 0.35em;
-        width: 52px;
+        width: 48px;
     }
 
     table {
